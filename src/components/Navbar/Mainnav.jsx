@@ -1,32 +1,79 @@
 import "./navbar.css";
+
+import { Link } from "react-router-dom";
+
 import logo from "../../assets/logo.jpg";
 
-
-export default function MainNav() {
+export default function Mainnav() {
   return (
     <div className="mainnav">
-      {/* Logo */}
+
+      {/* LOGO */}
+
       <div className="logo">
-        <img src={logo} alt="Logo" />
+
+        <Link to="/">
+
+          <img
+            src={logo}
+            alt="Logo"
+          />
+
+        </Link>
+
       </div>
 
-      {/* Search */}
+      {/* SEARCH */}
+
       <div className="search-box">
-        <input type="text" placeholder="Search services..." />
+
+        <input
+          type="text"
+          placeholder="Search services..."
+        />
+
       </div>
 
-      {/* Menu */}
+      {/* MENU */}
+
       <ul className="menu">
-        <li>Home</li>
-        <li>Games & Activity</li>
-        <li>Themes</li>
-        <li>Services</li>
-        <li>Contact Us</li>
-        <li>Explore</li>
+
+        <li>
+          <Link to="/">Home</Link>
+        </li>
+
+        <li>
+          <Link to="/games-activity-for-event">
+            Games & Activity
+          </Link>
+        </li>
+
+        <li>
+          <Link to="/themes">
+            Themes
+          </Link>
+        </li>
+
+        <li>
+          <Link to="/services">
+            Services
+          </Link>
+        </li>
+
+        <li>
+          <Link to="/contact">
+            Contact Us
+          </Link>
+        </li>
+
+        <li>
+          <Link to="/explore">
+            Explore
+          </Link>
+        </li>
+
       </ul>
 
-      {/* Button */}
-      {/* <button className="contact-btn">Contact</button> */}
     </div>
   );
 }
