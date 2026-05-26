@@ -1,4 +1,6 @@
 import "./GameDetail.css";
+import "../../components/PageDetail/Banner/Banner";
+import "../../components/PageDetail/Banner/Banner.css";
 
 import { useParams, Link } from "react-router-dom";
 
@@ -68,15 +70,11 @@ const game = gamesDetailData.find(
 
       {/* SECTION 1 */}
 
-      <div className="container">
+      <div className="container default-padding">
 
         <div className="detail-row">
 
           <div className="detail-text">
-
-            <span className="tag">
-              Fun Activity
-            </span>
 
             <h2>{game.title}</h2>
 
@@ -99,7 +97,7 @@ const game = gamesDetailData.find(
 
         {/* SECTION 2 */}
 
-        <div className="detail-row reverse">
+        <div className="detail-row">
 
           <div className="detail-image">
 
@@ -111,10 +109,6 @@ const game = gamesDetailData.find(
           </div>
 
           <div className="detail-text">
-
-            <span className="tag">
-              Event Entertainment
-            </span>
 
             <h2>
               Perfect For Every Event

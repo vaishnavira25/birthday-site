@@ -43,4 +43,12 @@ export const gamesData = [
     price: "3,499",
   },
 
+  {
+    id: 2,
+    title: "Air Hockey",
+    slug: "air-hockey",
+    image: airHockey,
+    price: "3,499",
+  },
+
 ];

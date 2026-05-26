@@ -65,12 +65,6 @@
   grid-template-columns: 1fr 1fr;
   gap: 60px;
   align-items: center;
-
-  padding: 100px 0;
-}
-
-.reverse{
-  padding-top: 0;
 }
 
 .detail-image img{
