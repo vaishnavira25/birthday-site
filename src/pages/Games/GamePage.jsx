@@ -1,5 +1,4 @@
 import "./GamePage.css";
-import "../../components/Cards/Cards.css";
 
 import banner from "../../assets/banner/games-&-activity-banner.png";
 

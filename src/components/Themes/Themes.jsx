@@ -1,6 +1,8 @@
 import React from "react";
 import "./themes.css";
 
+import Cards from "../../components/Cards/Cards";
+
 import theme1 from "../../assets/themes/boys-theme.webp";
 import theme2 from "../../assets/themes/girls-theme.webp";
 import theme3 from "../../assets/themes/customize-theme.webp";
@@ -12,36 +14,52 @@ import theme8 from "../../assets/themes/candy-land-theme.webp";
 
 const themesData = [
   {
-    img: theme1,
+    image: theme1,
     title: "Boys Theme",
+    slug: "boys-theme",
+    price: "4,999",
   },
   {
-    img: theme2,
+    image: theme2,
     title: "Girls Theme",
+    slug: "girls-theme",
+    price: "5,999",
   },
   {
-    img: theme3,
+    image: theme3,
     title: "Customize Theme",
+    slug: "customize-theme",
+    price: "6,999",
   },
   {
-    img: theme4,
+    image: theme4,
     title: "First Birthday Party",
+    slug: "first-birthday-party",
+    price: "7,999",
   },
   {
-    img: theme5,
+    image: theme5,
     title: "Twins Theme Party",
+    slug: "twins-theme-party",
+    price: "8,999",
   },
   {
-    img: theme6,
+    image: theme6,
     title: "New Born Theme",
+    slug: "new-born-theme",
+    price: "5,499",
   },
   {
-    img: theme7,
+    image: theme7,
     title: "Casino Theme Party",
+    slug: "casino-theme-party",
+    price: "12,999",
   },
   {
-    img: theme8,
+    image: theme8,
     title: "Candy Land Theme Party",
+    slug: "candy-land-theme-party",
+    price: "9,999",
   },
 ];
 
@@ -50,35 +68,37 @@ const Themes = () => {
     <section className="themes-section default-padding">
 
       {/* Heading */}
-      <div className="section-heading">
-        <h2>Themes</h2>
-        <div className="heading-line"></div>
+      <div className="section-header">
+
+        <span className="tag">
+          Themes
+        </span>
+
+        <h2>
+          Make Every Celebration More Magical
+        </h2>
+
       </div>
 
       {/* Cards */}
       <div className="themes-container">
 
         {themesData.map((item, index) => (
-          <div className="theme-card" key={index}>
-
-            <div className="theme-image">
-              <img src={item.img} alt={item.title} />
-            </div>
-
-            <div className="theme-content">
-              <h3>{item.title}</h3>
-            </div>
-
-          </div>
+          <Cards
+            key={index}
+            item={item}
+          />
         ))}
 
       </div>
 
       {/* Button */}
       <div className="theme-btn-wrapper">
+
         <button className="theme-btn">
           View All Themes
         </button>
+
       </div>
 
     </section>

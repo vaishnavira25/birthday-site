@@ -1,45 +1,78 @@
 import { Link } from "react-router-dom";
-import "./Cards.css"
+import { FaStar } from "react-icons/fa";
+import "./Cards.css";
 
 const Cards = ({ item }) => {
   return (
-    <Link to={`/${item.slug}`}>
+    <Link to={`/${item.slug}`} className="card">
 
-      <div className="game-image">
+      {/* IMAGE */}
+
+      <div className="card-image">
 
         <img
           src={item.image}
           alt={item.title}
         />
 
+        {/* Overlay */}
+
+        <div className="card-overlay"></div>
+
+        {/* Badge */}
+
+        <span className="card-badge">
+          Popular
+        </span>
+
       </div>
 
-      <div className="game-content">
+      {/* CONTENT */}
 
-        <div className="top-row">
+      <div className="card-content">
 
-          <h3>{item.title}</h3>
+        {/* TITLE */}
 
-          <div className="stars">
-            ★★★★★
+        <h3 className="card-title">
+          {item.title}
+        </h3>
+
+        {/* REVIEWS */}
+
+        <div className="card-review">
+
+          <div className="card-stars">
+            <FaStar />
+            <FaStar />
+            <FaStar />
+            <FaStar />
+            <FaStar />
+          </div>
+
+          <span>(120 Reviews)</span>
+
+        </div>
+
+        {/* PRICE */}
+
+        <div className="card-price-row">
+
+          <div>
+            <p className="card-price-label">
+              Starts at
+            </p>
+
+            <h4 className="card-price">
+              ₹{item.price}
+            </h4>
           </div>
 
         </div>
 
-        <div className="price-row">
+        {/* BUTTON */}
 
-          <p className="price-text">
-            Starting From
-          </p>
-
-          <p className="price">
-            ₹{item.price}
-          </p>
-
-        </div>
-
-        <button className="book-btn">
-          Book Now
+        <button className="card-btn">
+          Book This Theme
         </button>
 
       </div>

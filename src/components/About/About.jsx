@@ -29,11 +29,12 @@ const About = () => {
         {/* Right Content */}
         <div className="about-content">
 
-          <h2>
-            Throw the Perfect Party with the Best Birthday Planner in Delhi
-          </h2>
+           <div className="section-header">
+          <span className="tag">About Us</span>
 
-          <div className="heading-line"></div>
+          <h2>Throw the Perfect Party with the Best Birthday Planner in Delhi</h2>
+
+        </div>
 
           <p>
            Birthday planner in Delhi, Gurgaon, Noida, Faridabad. If you are looking for a birthday planner in Delhi then BirthdayPlanner.co is a subsidiary company of the Fame Business Group. With 12 years of experience, they are one of the best birthday party organizers operating on a large scale in India, providing services like communication planning, strategy, creativity, and artistic work to a vast range of markets across the country. <b>Birthday party organisers in Delhi.</b>

@@ -23,9 +23,10 @@ export default function TopBar() {
           niranjankumar.205@gmail.com 
         </span>
 
+        <div className="shine"></div>
         <span>
           <MdPhone />
-          9811256658 
+          +91 9811256658 
         </span>
 
       </div>
