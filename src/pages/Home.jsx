@@ -7,7 +7,9 @@ import Counter from "../components/Counter/Counter";
 import WhyChoose from "../components/Whychoose/Whychoose";
 import Games from "../components/Games/Games";
 import Service from "../components/Service/Service";
+import Award from "../components/Award/Award";
 import Availability from "../components/Availability/Availability";
+import LookingFor from "../components/LookingFor/LookingFor";
 import Footer from "../components/Footer/footer";
 
 
@@ -23,7 +25,9 @@ const Home = () => {
       <WhyChoose />
       <Games />
       <Service />
+      <Award />
       <Availability />
+      <LookingFor />
       <Footer />
       
     </>
