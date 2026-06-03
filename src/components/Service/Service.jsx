@@ -62,10 +62,21 @@ const Service = () => {
 
       <div className="container">
 
-        <div className="service-heading">
+        <div className="section-header">
+
+          <span className="tag">
+            Birthday Planner
+          </span>
+
           <h2>
-            A free flowing child that is not spoon fed is a boon to society
+            Your One-Stop Destination
+            For Birthday Celebrations
           </h2>
+
+          <p>
+            Themes • Decorations • Games • Entertainment • Photography • Venues
+          </p>
+
         </div>
 
         <div className="service-grid">

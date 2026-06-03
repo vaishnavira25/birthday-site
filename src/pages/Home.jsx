@@ -7,10 +7,13 @@ import Counter from "../components/Counter/Counter";
 import WhyChoose from "../components/Whychoose/Whychoose";
 import Games from "../components/Games/Games";
 import Service from "../components/Service/Service";
+import Package from "../components/Package/Package";
 import Award from "../components/Award/Award";
+import Testimonial from "../components/Testimonial/Testimonial";
 import Availability from "../components/Availability/Availability";
 import LookingFor from "../components/LookingFor/LookingFor";
 import Footer from "../components/Footer/footer";
+import Button from "../components/Button/Button";
 
 
 const Home = () => {
@@ -25,10 +28,13 @@ const Home = () => {
       <WhyChoose />
       <Games />
       <Service />
+      <Package />
       <Award />
+      <Testimonial />
       <Availability />
       <LookingFor />
       <Footer />
+      <Button />
       
     </>
   );

@@ -1,79 +1,136 @@
+import { useState } from "react";
+
 import "./GamePage.css";
 
-import banner from "../../assets/banner/games-&-activity-banner.png";
-
-import { gamesData } from "../../data/gamesData";
-
+import Navbar from "../../components/Navbar/Navbar";
 import Cards from "../../components/Cards/Cards";
+import banner from "../../assets/banner/games-&-activity-banner.png";
+import { gamesData } from "../../data/gamesData";
+import { activitiesData } from "../../data/activitiesData";
 
 export default function GamePage() {
+  const [activeTab, setActiveTab] = useState("games");
+
+  const currentData =
+    activeTab === "games"
+      ? gamesData
+      : activitiesData;
+
   return (
-    <section className="games-page">
+    <>
+      <Navbar />
 
-      {/* HERO */}
+      <section className="games-page">
 
-      <div className="games-hero">
+        {/* HERO */}
 
-        <img
-          src={banner}
-          alt="Games Banner"
-        />
+        <div className="games-hero">
 
-        <div className="games-overlay">
+          <img
+            src={banner}
+            alt="Games Banner"
+          />
 
-          <h1>
-            Games & Activities On Rent
-          </h1>
+          <div className="games-overlay">
 
-          <p>
-            Fun activities and entertainment
-            games for birthdays, corporate
-            events, carnivals, school events,
-            weddings, and celebrations.
-          </p>
+            <h1>
+              Games & Activities On Rent
+            </h1>
 
-        </div>
+            <p>
+              Fun activities and entertainment
+              games for birthdays, corporate
+              events, carnivals, school events,
+              weddings, and celebrations.
+            </p>
 
-      </div>
-
-      {/* CONTENT */}
-
-      <div className="games-container">
-
-        <div className="games-content">
-
-          <h2>
-            Games and Activities Rental
-          </h2>
-
-          <p>
-            We provide exciting games and
-            activities for birthday parties,
-            school events, corporate
-            functions, carnivals, and mall
-            activations. Our collection
-            includes arcade games, carnival
-            games, fun activities, and kids
-            entertainment setups.
-          </p>
+          </div>
 
         </div>
 
-        {/* GRID */}
+        {/* CONTENT */}
 
-        <div className="games-grid">
+        <div className="games-container">
 
-          {gamesData.map((item) => (
-            <Cards
-              key={item.id}
-              item={item}
-            />
-          ))}
+          <div className="games-content">
+
+            <h2>
+              Games and Activities Rental
+            </h2>
+
+            <p>
+              We provide exciting games and
+              activities for birthday parties,
+              school events, corporate
+              functions, carnivals, and mall
+              activations.
+            </p>
+
+          </div>
+
+          {/* TABS */}
+
+          <div className="games-tabs">
+
+            <button
+              className={
+                activeTab === "games"
+                  ? "active"
+                  : ""
+              }
+              onClick={() =>
+                setActiveTab("games")
+              }
+            >
+              🎮 All Games
+            </button>
+
+            <button
+              className={
+                activeTab === "activities"
+                  ? "active"
+                  : ""
+              }
+              onClick={() =>
+                setActiveTab("activities")
+              }
+            >
+              🎯 Activities
+            </button>
+
+          </div>
+
+          {/* COUNT */}
+
+          <div className="games-count">
+
+            Showing{" "}
+            {currentData.length}{" "}
+
+            {activeTab === "games"
+              ? "Games"
+              : "Activities"}
+
+          </div>
+
+          {/* GRID */}
+
+          <div className="games-grid">
+
+            {currentData.map((item) => (
+
+              <Cards
+                key={item.id}
+                item={item}
+              />
+
+            ))}
+
+          </div>
 
         </div>
 
-      </div>
-
-    </section>
+      </section>
+    </>
   );
 }

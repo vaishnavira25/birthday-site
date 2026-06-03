@@ -15,36 +15,42 @@ import theme8 from "../../assets/themes/candy-land-theme.webp";
 const themesData = [
   {
     image: theme1,
+    badge: "Popular",
     title: "Boys Theme",
     slug: "boys-theme",
     price: "4,999",
   },
   {
     image: theme2,
+    badge: "Trending",
     title: "Girls Theme",
     slug: "girls-theme",
     price: "5,999",
   },
   {
     image: theme3,
+    badge: "",
     title: "Customize Theme",
     slug: "customize-theme",
     price: "6,999",
   },
   {
     image: theme4,
+    badge: "",
     title: "First Birthday Party",
     slug: "first-birthday-party",
     price: "7,999",
   },
   {
     image: theme5,
+    badge: "",
     title: "Twins Theme Party",
     slug: "twins-theme-party",
     price: "8,999",
   },
   {
     image: theme6,
+    badge: "Best Seller",
     title: "New Born Theme",
     slug: "new-born-theme",
     price: "5,499",
@@ -57,7 +63,7 @@ const themesData = [
   },
   {
     image: theme8,
-    title: "Candy Land Theme Party",
+    title: "Candy Land Theme",
     slug: "candy-land-theme-party",
     price: "9,999",
   },

@@ -69,6 +69,47 @@
   color: #666;
 }
 
+
+/* ================= TABS ================= */
+
+.games-tabs {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 25px;
+}
+
+.games-tabs button {
+  border: none;
+  background: #fff;
+  color: #333;
+  padding: 14px 30px;
+  border-radius: 50px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+}
+
+.games-tabs button.active {
+  background: #ff2b7a;
+  color: #fff;
+}
+
+.games-tabs button:hover {
+  transform: translateY(-2px);
+}
+
+/* ================= COUNT ================= */
+
+.games-count {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 15px;
+  color: #666;
+  font-weight: 500;
+}
 /* ================= GRID ================= */
 
 .games-grid {
@@ -121,6 +162,15 @@
 
   .games-content h2 {
     font-size: 28px;
+  }
+    .games-tabs {
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+
+  .games-tabs button {
+    padding: 12px 18px;
+    font-size: 14px;
   }
 
 }

@@ -56,20 +56,19 @@
 
 .theme-btn-wrapper {
   text-align: center;
-  margin-top: 60px;
+  margin-top: 40px;
 }
 
 .theme-btn {
-  padding: 16px 24px;
-  background: #f4c542;
-  border: none;
-  border-radius: 6px;
-
-  font-size: 18px;
-  font-weight: 600;
-  cursor: pointer;
-
-  transition: 0.3s ease;
+    background: #ffd75a;
+    border: none;
+    padding: 16px 24px;
+    border-radius: 14px;
+    color: #111;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.3s ease;
 }
 
 .theme-btn:hover {

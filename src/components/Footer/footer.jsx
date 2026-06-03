@@ -1,5 +1,6 @@
 import React from "react";
 import "./footer.css";
+import Multilines from "../Multilines/Multilines";
 
 import logo from "../../assets/logo.jpg";
 
@@ -26,9 +27,11 @@ const Footer = () => {
   return (
     <>
       <footer className="footer">
+          <Multilines />
 
         {/* Top Shape */}
         <div className="footer-top-shape"></div>
+        
 
         <div className="footer-container">
 

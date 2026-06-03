@@ -21,9 +21,11 @@ const Cards = ({ item }) => {
 
         {/* Badge */}
 
-        <span className="card-badge">
-          Popular
-        </span>
+        {item.badge && (
+          <span className="card-badge">
+            {item.badge}
+          </span>
+        )}
 
       </div>
 
@@ -72,7 +74,7 @@ const Cards = ({ item }) => {
         {/* BUTTON */}
 
         <button className="card-btn">
-          Book This Theme
+          Book Now
         </button>
 
       </div>

@@ -1,11 +1,8 @@
-/* .availability-section {
-  background: #d9d9d9;
-  padding: 60px 0;
-  overflow: hidden;
-} */
-
+.availability-section{
+    background-color: #f8f8f9;
+}
 .availability-container {
-  width: 95%;
+  max-width: 1300px;
   margin: auto;
 }
 
@@ -13,68 +10,92 @@
   text-align: center;
   font-size: 32px;
   font-weight: 700;
-  color: #2f2f2f;
-  margin-bottom: 40px;
+  color: #222;
+  margin-bottom: 60px;
 }
 
-.swiper-wrapper {
-  transition-timing-function: linear !important;
+.cities-showcase {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 40px;
 }
 
-.city-card {
-  background: #fff;
-  border-radius: 18px;
-  overflow: hidden;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+.city-showcase-item {
+  text-align: center;
   transition: 0.3s ease;
 }
 
-/* .city-card:hover {
-  transform: translateY(-6px);
-} */
-
-.city-image {
-  height: 180px;
+.city-showcase-image {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
   overflow: hidden;
+  padding: 5px;
+  background: linear-gradient(
+    135deg,
+    #ff8a00,
+    #ff5e62,
+    #7b61ff
+  );
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
 }
 
-.city-image img {
+.city-showcase-image img {
   width: 100%;
   height: 100%;
+  border-radius: 50%;
   object-fit: cover;
+  display: block;
   transition: 0.4s ease;
 }
 
-.city-card:hover img {
-  transform: scale(1.08);
+.city-showcase-item:hover {
+  transform: translateY(-8px);
 }
 
-.city-name {
-  text-align: center;
-  padding: 16px;
-  font-size: 20px;
+.city-showcase-item:hover img {
+  transform: scale(1.1);
+}
+
+.city-showcase-item span {
+  display: block;
+  margin-top: 14px;
+  font-size: 1.05rem;
   font-weight: 600;
-  color: #333;
+  color: #2d2d2d;
 }
 
-/* Responsive */
+/* Tablet */
 
 @media (max-width: 768px) {
-  .availability-section {
-    padding: 40px 0;
-  }
-
   .availability-title {
-    font-size: 28px;
-    line-height: 1.4;
+    font-size: 2rem;
   }
 
-  .city-image {
-    height: 150px;
+  .cities-showcase {
+    gap: 25px;
   }
 
-  .city-name {
-    font-size: 18px;
-    padding: 12px;
+  .city-showcase-image {
+    width: 95px;
+    height: 95px;
+  }
+
+  .city-showcase-item span {
+    font-size: 0.95rem;
+  }
+}
+
+/* Mobile */
+
+@media (max-width: 480px) {
+  .cities-showcase {
+    gap: 20px;
+  }
+
+  .city-showcase-image {
+    width: 80px;
+    height: 80px;
   }
 }

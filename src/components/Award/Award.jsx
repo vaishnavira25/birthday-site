@@ -7,7 +7,7 @@ import awardBanner from "../../assets/banner/award-banner.jpeg";
 
 const Award = () => {
   return (
-    <section className="award-section">
+    <section className="award-section default-padding">
 
       {/* Heading */}
       <div className="award-heading">

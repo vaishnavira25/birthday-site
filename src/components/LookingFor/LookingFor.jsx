@@ -1,5 +1,3 @@
-// LookingFor.jsx
-
 import React from "react";
 import "./lookingfor.css";
 
@@ -23,6 +21,7 @@ import eventManagement from "../../assets/lookingfor/event-management.png";
 import birthdayVenue from "../../assets/lookingfor/birthday-venue.png";
 import balloonDecoration from "../../assets/lookingfor/balloon-decoration.png";
 import truckBar from "../../assets/lookingfor/truck.png";
+import Multilines from "../Multilines/Multilines";
 
 const lookingData = [
   {
@@ -98,9 +97,8 @@ const lookingData = [
 
 const LookingFor = () => {
   return (
-    <section className="looking-section">
-
-      <div className="container">
+    <section className="looking-section  default-padding">
+      <div className="container-fluid">
 
         <h2 className="looking-title">
           Looking For?
@@ -143,6 +141,8 @@ const LookingFor = () => {
                 className="looking-card"
                 style={{ background: item.bg }}
               >
+
+                
 
                 <img
                   src={item.image}
