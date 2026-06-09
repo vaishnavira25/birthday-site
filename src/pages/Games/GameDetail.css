@@ -87,7 +87,7 @@
 }
 
 .detail-text h2{
-  font-size: 42px;
+  font-size: 32px;
   margin-bottom: 20px;
   color: #1d2736;
 }
@@ -100,8 +100,8 @@
 /* GALLERY */
 
 .gallery-section{
-  padding: 100px 0;
-  background: #f8f8f8;
+  padding: 50px 0;
+  /* background: #f8f8f8; */
 }
 
 .section-header{
@@ -144,7 +144,7 @@
 /* FAQ VIDEO */
 
 .faq-video-section{
-  padding: 100px 0;
+  padding: 50px 0;
 }
 
 .faq-video-wrap{
@@ -182,8 +182,8 @@
 /* RELATED */
 
 .related-games{
-  padding: 100px 0;
-  background: #f8f8f8;
+  padding: 50px 0;
+  /* background: #f8f8f8; */
 }
 
 /* RESPONSIVE */
