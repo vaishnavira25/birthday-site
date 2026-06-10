@@ -12,7 +12,7 @@ import gallery4 from "../../assets/Games/air-hockey/air-hockey-for-rent.webp";
 const airHockey = {
   id: 1,
 
-  title: "Air Hockey On Rent In Delhi",
+  title: "Air Hockey For Hire",
 
   slug: "air-hockey-on-rent-in-delhi",
 
@@ -21,22 +21,30 @@ const airHockey = {
   image: airImg1,
 
   sections: [
+  {
+  title: "Air Hockey On Rent In Delhi",
+
+  image: airImg1,
+
+  description: [
+    "Basically we provide Air Hockey on rent in Delhi, Gurgaon, and Noida for events at a very reasonable and affordable price.",
+
+    "Air Hockey is one of the most popular arcade games enjoyed by kids aged 5 years and above. The game is played by two players on an air hockey table that uses a low-friction surface. Air is pushed through tiny holes in the table, creating a cushion of air that allows the puck to glide smoothly and quickly.",
+
+    "The fast-paced nature of the game makes it exciting and highly engaging for players. Air Hockey is a great entertainment option for older kids and teenagers at birthday parties, school events, and corporate functions.",
+
+    "Most children love the game because of its simplicity, speed, and competitive gameplay. It creates excitement among participants and keeps guests entertained throughout the event.",
+
+    "We provide excellent quality Air Hockey tables that are suitable for both kids and adults. Our tables feature a smooth playing surface, sturdy construction, and attractive design.",
+
+    "The tables also include lipped edges that help keep the puck in play, reducing interruptions during the game. The professional setup creates a fun and competitive atmosphere for all participants.",
+
+    "Air Hockey is an ideal addition to birthday parties, exhibitions, carnivals, mall activations, and corporate events where interactive entertainment is required."
+  ],
+},
+
     {
-      title: "Air Hockey On Rent In Delhi",
-
-      image: airImg1,
-
-      description: `
-We provide Air Hockey on rent in Delhi, Gurgaon and Noida for events at a very reasonable and affordable price.
-
-Air Hockey is one of the most popular arcade games enjoyed by kids aged 5 years and above. It is played by 2 players on a low-friction table where air is pushed through tiny holes, creating a cushion that makes the puck glide smoothly and quickly.
-
-This makes the game fast, competitive and highly entertaining for guests of all ages.
-      `,
-    },
-
-    {
-      title: "Why Air Hockey is a Hit at Parties",
+      title: "",
 
       image: airImg2,
 
@@ -51,10 +59,22 @@ The tables come with lipped edges to keep the puck in play and an engaging setup
   ],
 
   gallery: [
-  gallery1,
-  gallery2,
-  gallery3,
-  gallery4,
+  {
+    image: gallery1,
+    size: "big",
+  },
+  {
+    image: gallery2,
+    size: "tall",
+  },
+  {
+    image: gallery3,
+    size: "normal",
+  },
+  {
+    image: gallery4,
+    size: "wide",
+  },
 ],
 
   video:"https://www.youtube.com/embed/HGKE9kssPXk?si=CRm8RwtbHsCyHn6m",
@@ -80,6 +100,13 @@ The tables come with lipped edges to keep the puck in play and an engaging setup
       answer:
         "It can be installed indoors or in covered outdoor spaces.",
     },
+  ],
+
+    relatedGames: [
+    "ball-in-bucket-game-on-rent-in-delhi",
+    "basketball-game-on-rent",
+    "foosball-game-on-rent",
+    "ring-toss-game-on-rent",
   ],
 };
 

@@ -1,37 +1,33 @@
 export default function Gallery({ game }) {
+  const sizes = [
+    "small",
+    "medium",
+    "large",
+    "medium",
+  ];
+
   return (
     <section className="gallery-section">
-
       <div className="container">
 
         <div className="section-header">
-
           <h2>Gallery</h2>
-
         </div>
 
         <div className="gallery-grid">
 
-          <div className="gallery-item big">
-            <img src={game.gallery1} alt="" />
+         {game.gallery.map((item, index) => (
+          <div
+            key={index}
+            className={`gallery-item ${item.size}`}
+          >
+            <img src={item.image} alt="" />
           </div>
-
-          <div className="gallery-item">
-            <img src={game.gallery2} alt="" />
-          </div>
-
-          <div className="gallery-item">
-            <img src={game.gallery3} alt="" />
-          </div>
-
-          <div className="gallery-item wide">
-            <img src={game.gallery4} alt="" />
-          </div>
+        ))}
 
         </div>
 
       </div>
-
     </section>
   );
 }
