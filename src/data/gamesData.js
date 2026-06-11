@@ -3,10 +3,10 @@ import ballbucket from "../assets/Games/ball-in-bucket-game.webp";
 
 export const gamesData = [
 
-  { id: 1, title: "Air Hockey", slug: "air-hockey-on-rent-in-delhi/", image: airHockey, price: "4,999" },
-  { id: 2, title: "Ball In Bucket", slug: "ball-in-bucket-game-on-rent/", image: airHockey, price: "4,999" },
-  { id: 3, title: "Jenga", slug: "jenga", image: airHockey, price: "4,999" },
-  { id: 4, title: "Virtual Game", slug: "virtual-game", image: airHockey, price: "4,999" },
+  { id: 1, title: "Air Hockey", slug: "air-hockey-on-rent-in-delhi", image: airHockey, price: "4,999" },
+  { id: 2, title: "Ball In Bucket", slug: "ball-in-bucket-game-on-rent", image: airHockey, price: "4,999" },
+  { id: 3, title: "Jenga", slug: "jenga-game-on-rent-delhi", image: airHockey, price: "4,999" },
+  { id: 4, title: "Virtual Game", slug: "virtual-game-on-rent-in-delhi", image: airHockey, price: "4,999" },
   { id: 5, title: "Claw Machine", slug: "claw-machine", image: airHockey, price: "4,999" },
   { id: 6, title: "Table Tennis", slug: "table-tennis", image: airHockey, price: "4,999" },
   { id: 7, title: "Snake Ladder", slug: "snake-ladder", image: airHockey, price: "4,999" },

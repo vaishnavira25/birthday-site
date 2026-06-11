@@ -44,17 +44,25 @@ const airHockey = {
 },
 
     {
-      title: "",
+      title: "Air Hockey Game On rent",
 
       image: airImg2,
 
-      description: `
-Air Hockey is perfect entertainment for kids, teens and adults at any event.
+      description: [
+  "Hence, Air Hockey is a game where two players compete against each other by striking a puck across a specially designed air-cushioned table. Air Hockey on rent in Gurgaon is an excellent choice for competitive fun and interactive entertainment at parties and events.",
 
-We provide high-quality air hockey tables with smooth surfaces, durable build, and attractive design suitable for all types of events like birthday parties, school events, corporate functions and exhibitions.
+  "There are some simple rules that make the game enjoyable and easy to understand. A player may stand anywhere on their side of the table but cannot cross the center line. Air Hockey on rent for birthday parties is suitable for both kids and adults who enjoy fast-paced challenges.",
 
-The tables come with lipped edges to keep the puck in play and an engaging setup that keeps guests entertained throughout the event.
-      `,
+  "The game is generally played up to seven points, although the scoring limit can be adjusted according to the event requirements. This flexibility makes Air Hockey for events a popular attraction at birthday parties, school functions, exhibitions, and corporate gatherings.",
+
+  "A point is scored whenever the puck enters the opponent's goal. It does not matter whether the puck is hit directly or deflects off the opponent's mallet before entering the goal. This exciting gameplay keeps participants engaged throughout the event.",
+
+  "Players are not allowed to cross the center line to strike the puck, and they cannot place their mallet on top of the puck. These simple rules ensure fair play and make Air Hockey a safe and enjoyable game for all age groups.",
+
+  "Air Hockey can also be paired with other exciting attractions such as Hammer Machine, Wooden Ice Hockey, Toy Catcher Machine, Punching Machine, Trampoline Game, Batak Game, Slick Puck, Snake Pit, and Buttak Pro. Together, these games create a complete entertainment experience for guests.",
+
+  "Whether you are planning a birthday celebration, carnival, mall activation, exhibition, or corporate event, Air Hockey table rental in Delhi offers an engaging and competitive activity that guests will enjoy throughout the event."
+],
     },
   ],
 
@@ -103,10 +111,10 @@ The tables come with lipped edges to keep the puck in play and an engaging setup
   ],
 
     relatedGames: [
-    "ball-in-bucket-game-on-rent-in-delhi",
-    "basketball-game-on-rent",
-    "foosball-game-on-rent",
-    "ring-toss-game-on-rent",
+    "air-hockey-on-rent-in-delhi",
+    "ball-in-bucket-game-on-rent",
+    "jenga-game-on-rent-delhi",
+    "virtual-game-on-rent-in-delhi",
   ],
 };
 

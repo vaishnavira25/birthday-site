@@ -15,7 +15,13 @@ export default function PageContext({ game }) {
 
                 <h2>{section.title}</h2>
 
-                <p>{section.description}</p>
+                {Array.isArray(section.description) ? (
+                  section.description.map((paragraph, i) => (
+                    <p key={i}>{paragraph}</p>
+                  ))
+                ) : (
+                  <p>{section.description}</p>
+                )}
 
               </div>
 
@@ -39,11 +45,17 @@ export default function PageContext({ game }) {
 
               </div>
 
-              <div className="detail-text">
+             <div className="detail-text">
 
                 <h2>{section.title}</h2>
 
-                <p>{section.description}</p>
+                {Array.isArray(section.description) ? (
+                  section.description.map((paragraph, i) => (
+                    <p key={i}>{paragraph}</p>
+                  ))
+                ) : (
+                  <p>{section.description}</p>
+                )}
 
               </div>
             </>

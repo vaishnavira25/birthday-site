@@ -21,7 +21,7 @@ export default function AppRouter() {
         />
 
        <Route
-          path="/games-activity-for-event"
+          path="/games-activity-for-event/"
           element={<GamePage />}
         />
 

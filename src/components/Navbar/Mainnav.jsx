@@ -115,7 +115,7 @@ export default function Mainnav() {
         </li>
 
         <li>
-          <Link to="/games-activity-for-event">
+          <Link to="/games-activity-for-event/">
             Games & Activity
           </Link>
         </li>

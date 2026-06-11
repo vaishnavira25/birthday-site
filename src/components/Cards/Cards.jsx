@@ -4,7 +4,7 @@ import "./Cards.css";
 
 const Cards = ({ item }) => {
   return (
-    <Link to={`/${item.slug}`} className="card">
+    <Link to={`/${item.slug}/`} className="card">
 
       {/* IMAGE */}
 
