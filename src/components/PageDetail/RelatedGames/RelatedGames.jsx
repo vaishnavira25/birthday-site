@@ -7,28 +7,28 @@ export default function RelatedGames({ game }) {
   );
 
   return (
-    <section className="related-games">
+    <section className="related-games-section">
       <div className="container">
 
-        <div className="section-header">
+        <div className="related-games-header">
           <h2>Explore More Games</h2>
         </div>
 
-        <div className="games-grid">
+        <div className="related-games-grid">
           {relatedGames.map((item) => (
             <Link
               to={`/${item.slug}`}
-              className="game-card"
+              className="related-game-card"
               key={item.id}
             >
-              <div className="game-image">
+              <div className="related-game-image">
                 <img
                   src={item.image}
                   alt={item.title}
                 />
               </div>
 
-              <div className="game-content">
+              <div className="related-game-content">
                 <h3>{item.title}</h3>
               </div>
             </Link>
