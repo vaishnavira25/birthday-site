@@ -7,6 +7,8 @@ import {
 import Home from "../pages/Home";
 import GamePage from "../pages/Games/GamePage";
 import GameDetails from "../pages/Games/GameDetail";
+import Contact from "../pages/Contact/Contact";
+
 
 export default function AppRouter() {
 
@@ -29,6 +31,9 @@ export default function AppRouter() {
             path="/:slug"
             element={<GameDetails />}
         />
+
+        
+        <Route path="/contact" element={<Contact />} />
 
       </Routes>
 

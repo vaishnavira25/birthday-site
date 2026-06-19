@@ -1,13 +1,13 @@
 import "./games.css";
 
 import airHockey from "../../assets/Games/air-hockey.webp";
-import ballBucket from "../../assets/Games/ball-in-bucket-game.webp";
-import jenga from "../../assets/Games/jenga-games.webp";
-import vrgame from "../../assets/Games/virtual-xbox-game.webp";
+import ballBucket from "../../assets/Games/ball-in-bucket.webp";
+import jenga from "../../assets/Games/jenga-game.webp";
+import vrgame from "../../assets/Games/virtual-xbox.webp";
 import claw from "../../assets/Games/claw-machine.webp";
 import tableTennis from "../../assets/Games/table-tennis.webp";
 import snake from "../../assets/Games/snake-ladder.webp";
-import balloon from "../../assets/Games/ballon-shoot.webp";
+import balloon from "../../assets/Games/balloon-shooting.webp";
 
 const games = [
   {

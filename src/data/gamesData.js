@@ -1,7 +1,7 @@
 import airHockey from "../assets/Games/air-hockey.webp";
-import ballInBucketImg from "../assets/Games/ball-in-bucket-game.webp";
-import JengaImg from "../assets/Games/jenga-games.webp";
-import virtualGameImg from "../assets/Games/virtual-xbox-game.webp";
+import ballInBucketImg from "../assets/Games/ball-in-bucket.webp";
+import JengaImg from "../assets/Games/jenga-game.webp";
+import virtualGameImg from "../assets/Games/virtual-xbox.webp";
 import clawMachineImg from "../assets/Games/claw-machine.webp";
 import tableTennisImg from "../assets/Games/table-tennis.webp";
 import snakeLadderImg from "../assets/Games/snake-ladder.webp";
@@ -16,10 +16,10 @@ export const gamesData = [
   { id: 3, title: "Jenga", slug: "jenga-game-on-rent-delhi", image: JengaImg, price: "4,999" },
   { id: 4, title: "Virtual Game", slug: "virtual-game-on-rent-in-delhi", image: virtualGameImg, price: "4,999" },
   { id: 5, title: "Claw Machine", slug: "claw-machine", image: clawMachineImg, price: "4,999" },
-  { id: 6, title: "Table Tennis", slug: "table-tennis", image: tableTennis, price: "4,999" },
-  { id: 7, title: "Snake Ladder", slug: "snake-ladder", image: airHockey, price: "4,999" },
-  { id: 8, title: "Balloon Shooting", slug: "balloon-shooting", image: airHockey, price: "4,999" },
-  { id: 9, title: "Roulette Game", slug: "roulette-game", image: airHockey, price: "4,999" },
+  { id: 6, title: "Table Tennis", slug: "table-tennis", image: tableTennisImg, price: "4,999" },
+  { id: 7, title: "Snake Ladder", slug: "snake-ladder", image: snakeLadderImg, price: "4,999" },
+  { id: 8, title: "Balloon Shooting", slug: "balloon-shooting", image: balloonShootingImg, price: "4,999" },
+  { id: 9, title: "Roulette Game", slug: "roulette-game", image: remoteCarImg, price: "4,999" },
   { id: 10, title: "Remote Car", slug: "remote-car", image: airHockey, price: "4,999" },
   { id: 11, title: "Break The Pyramid", slug: "break-the-pyramid", image: airHockey, price: "4,999" },
   { id: 12, title: "Puzzle Game", slug: "puzzle-game", image: airHockey, price: "4,999" },
