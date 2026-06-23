@@ -8,6 +8,7 @@ import Home from "../pages/Home";
 import GamePage from "../pages/Games/GamePage";
 import GameDetails from "../pages/Games/GameDetail";
 import Contact from "../pages/Contact/Contact";
+import Explore from "../pages/Explore/Explore";
 
 
 export default function AppRouter() {
@@ -34,6 +35,8 @@ export default function AppRouter() {
 
         
         <Route path="/contact" element={<Contact />} />
+
+        <Route path="/explore" element={<Explore />} />
 
       </Routes>
 
