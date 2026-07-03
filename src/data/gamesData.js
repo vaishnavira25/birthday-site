@@ -9,7 +9,6 @@ import balloonShootingImg from "../assets/Games/balloon-shooting.webp";
 import rouletteImg from "../assets/Games/roulette-game.jpeg";
 import remoteCarImg from "../assets/Games/remote-car.webp";
 import breakThePyramid from "../assets/Games/break-the-pyramid.jpeg";
-
 import puzzleGameImg from "../assets/Games/puzzle-game.jpg";
 import paintballGameImg from "../assets/Games/paintball-game.jpg";
 import miniGolfImg from "../assets/Games/mini-golf.webp";
@@ -63,7 +62,8 @@ import fourInOneCarnivalGameImg from "../assets/Games/4-in-one-carnival-game.jpg
 import dartFootballImg from "../assets/Games/dart-football.webp";
 import beerPongTableImg from "../assets/Games/beer-pong.webp";
 import beerPuppetGameImg from "../assets/Games/beer-puppet-game.jpeg";
-import invisibleChairImg from "../assets/Games/";
+
+import streetFightGameImg from "../assets/Games/street-fight-game.webp";
 import subsoccerGameImg from "../assets/Games/subsoccer-game.webp";
 import fillTheBottleImg from "../assets/Games/fill-the-bottle-game.webp";
 import bubbleHouseImg from "../assets/Games/bubble-house.webp";
@@ -75,7 +75,7 @@ import naughtyBeansImg from "../assets/Games/naughty-beans-game.jpg";
 import connect4GameImg from "../assets/Games/connect4-game.webp";
 import batakGameImg from "../assets/Games/batak-game-on-rent.webp";
 import toyCatcherGameImg from "../assets/Games/toy-catcher-machine.webp";
-import hopscotchGameImg from "../assets/Games/hopscotch-game.webp";
+import hopscotchGameImg from "../assets/Games/hopscotch-game.jpg";
 import plinkoGameImg from "../assets/Games/plinko-game.webp";
 import tiltoGameImg from "../assets/Games/tilto-game.webp";
 import hitTheBallInAirImg from "../assets/Games/hit-the-ball-in-air.webp";
@@ -86,11 +86,10 @@ import ragingApeImg from "../assets/Games/raging-ape-arcade.webp";
 import kidTableChairImg from "../assets/Games/table-chair.webp";
 import carSimulatorImg from "../assets/Games/car-stimulator.webp";
 import slotMachineImg from "../assets/Games/slot-machine.jpg";
-import tekken3Img from "../assets/Games/tekken2.webp";
+import tekken3Img from "../assets/Games/tekken3.webp";
 import snakePitImg from "../assets/Games/snake-pit-game.webp";
-import zorbingBallImg from "../assets/Games/";
-import slickPuckGameImg from "../assets/Games/";
-import soundSystemImg from "../assets/Games/";
+import zorbingBallImg from "../assets/Games/zorbing-water-ball.webp";
+import slickPuckGameImg from "../assets/Games/slick-puck-game.webp";
 
 export const gamesData = [
   { id: 1, title: "Air Hockey", slug: "air-hockey-on-rent-in-delhi", image: airHockey, price: "4,999" },
@@ -157,7 +156,7 @@ export const gamesData = [
   { id: 62, title: "Dart Football", slug: "dart-football", image: dartFootballImg, price: "4,999" },
   { id: 63, title: "Beer Pong Table", slug: "beer-pong-table", image: beerPongTableImg, price: "4,999" },
   { id: 64, title: "Beer Puppet Game", slug: "beer-puppet-game", image: beerPuppetGameImg, price: "4,999" },
-  { id: 65, title: "Invisible Chair", slug: "invisible-chair", image: invisibleChairImg, price: "4,999" },
+  { id: 65, title: "Street Fight Game", slug: "street-fight-game", image: streetFightGameImg, price: "4,999" },
   { id: 66, title: "Subsoccer Game", slug: "subsoccer-game", image: subsoccerGameImg, price: "4,999" },
   { id: 67, title: "Fill The Bottle", slug: "fill-the-bottle", image: fillTheBottleImg, price: "4,999" },
   { id: 68, title: "Bubble House", slug: "bubble-house", image: bubbleHouseImg, price: "4,999" },
@@ -184,5 +183,5 @@ export const gamesData = [
   { id: 89, title: "Snake Pit", slug: "snake-pit", image: snakePitImg, price: "4,999" },
   { id: 90, title: "Zorbing Ball", slug: "zorbing-ball", image: zorbingBallImg, price: "4,999" },
   { id: 91, title: "Slick Puck Game", slug: "slick-puck-game", image: slickPuckGameImg, price: "4,999" },
-  { id: 92, title: "Sound System", slug: "sound-system", image: soundSystemImg, price: "4,999" },
+  
 ];

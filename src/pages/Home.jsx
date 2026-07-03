@@ -15,7 +15,6 @@ import LookingFor from "../components/LookingFor/LookingFor";
 import Footer from "../components/Footer/footer";
 import Button from "../components/Button/Button";
 
-
 const Home = () => {
   return (
     <>
@@ -35,7 +34,6 @@ const Home = () => {
       <LookingFor />
       <Footer />
       <Button />
-      
     </>
   );
 };
