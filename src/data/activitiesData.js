@@ -20,11 +20,11 @@ import unicyclistImg from "../assets/activity/unicyclists.jpeg";
 import sandArtImg from "../assets/activity/sand-art-artist.webp";
 import tattooArtistImg from "../assets/activity/tattoo-artist.jpg";
 import animalRidesImg from "../assets/activity/animal-ride.jpeg";
-import potteryWheelImg from "../assets/activity/";
-import waxHandImg from "../assets/activity/";
-import chocolateFountainImg from "../assets/activity/";
-import candyFlossStallImg from "../assets/activity/";
-import popcornStallImg from "../assets/activity/";
+import potteryWheelImg from "../assets/activity/Pottery-artist-on-rent-in-Gurgaon.webp";
+import waxHandImg from "../assets/activity/wax-hand-artist-on-rent.webp";
+import chocolateFountainImg from "../assets/activity/chocolate-fountain.webp";
+import candyFlossStallImg from "../assets/activity/candy-floss-machine.jpeg";
+import popcornStallImg from "../assets/activity/popcorn-machine.webp";
 
 export const activitiesData = [
   { id: 1, title: "Parrot Card Reader", image: parrotCardReaderImg, rating: 5, reviews: 120, price: "4,999" },

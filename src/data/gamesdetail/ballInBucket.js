@@ -92,6 +92,13 @@ It requires minimal space, can be set up indoors or outdoors and is one of the m
         "Yes, Ball In Bucket can be installed both indoors and outdoors depending on the venue.",
     },
   ],
+
+      relatedGames: [
+    "air-hockey-on-rent-in-delhi",
+    "ball-in-bucket-game-on-rent",
+    "jenga-game-on-rent-delhi",
+    "virtual-game-on-rent-in-delhi",
+  ],
 };
 
 export default ballInBucket;
