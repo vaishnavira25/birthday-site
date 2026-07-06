@@ -78,11 +78,15 @@ export default function Contact() {
 
               {/* Google Map */}
               <div className="map-box">
-                <iframe
-                  title="Google Map"
-                  src="https://www.google.com/maps?q=Chandan+Hulla+Chhatarpur+Delhi&output=embed"
-                  loading="lazy"
+                 <iframe
+                  title="Birthday Planner Location"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3507.32914413011!2d77.18192297528275!3d28.469632675754088!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d1feb430a990f%3A0x48066a6b6d608ce2!2sBirthday%20Planner!5e0!3m2!1sen!2sin!4v1783320757385!5m2!1sen!2sin"
+                  width="100%"
+                  height="450"
+                  style={{ border: 0 }}
                   allowFullScreen
+                  loading="lazy"
+                  referrerPolicy="strict-origin-when-cross-origin"
                 ></iframe>
               </div>
 

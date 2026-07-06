@@ -7,6 +7,7 @@ import {
 import Home from "../pages/Home";
 import GamePage from "../pages/Games/GamePage";
 import GameDetails from "../pages/Games/GameDetail";
+import ThemePage from "../pages/Themes/ThemePage";
 import Contact from "../pages/Contact/Contact";
 import Explore from "../pages/Explore/Explore";
 
@@ -31,6 +32,11 @@ export default function AppRouter() {
         <Route
             path="/:slug"
             element={<GameDetails />}
+        />
+
+         <Route
+          path="/themes/"
+          element={<ThemePage />}
         />
 
         
