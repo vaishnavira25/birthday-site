@@ -12,7 +12,7 @@ import Award from "../components/Award/Award";
 import Testimonial from "../components/Testimonial/Testimonial";
 import Availability from "../components/Availability/Availability";
 import LookingFor from "../components/LookingFor/LookingFor";
-import Footer from "../components/Footer/footer";
+import Footer from "../components/Footer/Footer";
 import Button from "../components/Button/Button";
 
 const Home = () => {

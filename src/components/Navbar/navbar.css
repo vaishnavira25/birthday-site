@@ -86,10 +86,40 @@
   }
 
 }
+
+.top-contact span:last-child svg {
+  animation: phoneRing 2s infinite;
+  transform-origin: center;
+}
+
+@keyframes phoneRing {
+  0%, 80%, 100% {
+    transform: rotate(0deg) scale(1);
+  }
+
+  5% {
+    transform: rotate(-20deg) scale(1.15);
+  }
+
+  10% {
+    transform: rotate(20deg) scale(1.15);
+  }
+
+  15% {
+    transform: rotate(-20deg) scale(1.15);
+  }
+
+  20% {
+    transform: rotate(20deg) scale(1.15);
+  }
+
+  25% {
+    transform: rotate(0deg) scale(1);
+  }
+}
   
 
 /* ICONS */
-
 .top-contact svg {
   font-size: 17px;
 }

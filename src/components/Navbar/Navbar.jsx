@@ -165,15 +165,6 @@ export default function Navbar() {
             </Link>
           </li>
 
-          <li>
-            <Link
-              to="/explore"
-              onClick={() => setMenuOpen(false)}
-            >
-              Explore
-            </Link>
-          </li>
-
         </ul>
 
       </div>

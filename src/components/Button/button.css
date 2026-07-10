@@ -7,152 +7,229 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 12px;
+  gap: 14px;
 }
 
-/* WhatsApp */
+/* =========================
+   CONTACT WRAPPER
+========================= */
 
-.whatsapp-wrapper {
+.contact-wrapper {
   position: relative;
 }
 
-.whatsapp-btn {
+/* =========================
+   MAIN BUTTON
+========================= */
+
+.contact-btn {
   width: 58px;
   height: 58px;
+
+  border: none;
+  outline: none;
+  cursor: pointer;
+
+  border-radius: 50%;
+
+  background: #8d67c8;
+  color: #fff;
 
   display: flex;
   align-items: center;
   justify-content: center;
 
-  border-radius: 50%;
-  text-decoration: none;
+  font-size: 22px;
 
-  background: #25d366;
-  color: #fff;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, .18);
 
-  font-size: 30px;
-
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  transition: .35s ease;
 
   animation: pulse 2s infinite;
 }
 
-.whatsapp-btn svg {
-  display: block;
+.contact-btn:hover {
+  transform: scale(1.08);
 }
 
-/* Message Bubble */
+.contact-btn.active {
+  animation: none;
+  transform: rotate(180deg);
+}
 
-.whatsapp-message {
+/* =========================
+   CONTACT MENU
+========================= */
+
+.contact-menu {
   position: absolute;
-  top: 50%;
-  right: 72px;
 
-  transform: translateY(-50%);
+  bottom: 72px;
+  right: 3px;
 
-  background: #fff;
-  color: #333;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
 
-  padding: 12px 18px;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
 
-  border-radius: 30px;
+  transform: translateY(20px);
 
-  white-space: nowrap;
-
-  font-size: 14px;
-  font-weight: 600;
-
-  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
-
-  animation: slideIn 0.4s ease;
+  transition: .35s ease;
 }
 
-.whatsapp-message::after {
-  content: "";
+.contact-menu.show {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
 
-  position: absolute;
-  right: -6px;
-  top: 50%;
-
-  width: 12px;
-  height: 12px;
-
-  background: #fff;
-
-  transform: translateY(-50%) rotate(45deg);
+  transform: translateY(0);
 }
 
-/* Scroll Top */
+/* =========================
+   MENU BUTTONS
+========================= */
 
-.scroll-top-btn {
-  width: 58px;
-  height: 58px;
+.contact-menu a {
+  width: 52px;
+  height: 52px;
+
+  border-radius: 50%;
 
   display: flex;
   align-items: center;
   justify-content: center;
 
-  border: none;
-  border-radius: 50%;
+  text-decoration: none;
 
-  background: #ff5c63;
-  color: #fff;
+  color: white;
 
   font-size: 22px;
-  cursor: pointer;
 
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 8px 20px rgba(0,0,0,.18);
 
-  transition: all 0.3s ease;
+  transition: .3s ease;
+
+  opacity: 0;
+
+  transform: scale(.5) translateY(20px);
 }
 
-.scroll-top-btn:hover {
-  transform: translateY(-4px);
+/* Open Animation */
+
+.contact-menu.show a {
+  opacity: 1;
+  transform: scale(1) translateY(0);
 }
 
-/* Animations */
+/* Stagger */
 
-@keyframes slideIn {
-  from {
-    opacity: 0;
-    transform: translateY(-50%) translateX(20px);
-  }
-
-  to {
-    opacity: 1;
-    transform: translateY(-50%) translateX(0);
-  }
+.contact-menu.show .call-btn {
+  transition-delay: .05s;
 }
 
-@keyframes pulse {
-  0% {
-    transform: scale(1);
-  }
-
-  50% {
-    transform: scale(1.08);
-  }
-
-  100% {
-    transform: scale(1);
-  }
+.contact-menu.show .whatsapp-btn {
+  transition-delay: .12s;
 }
 
-/* Mobile */
+/* Hover */
 
-@media (max-width: 768px) {
-  .floating-buttons {
-    right: 15px;
-    bottom: 15px;
-  }
+.contact-menu a:hover {
+  transform: scale(1.12);
+}
 
-  .whatsapp-message {
-    display: none;
-  }
+/* Colors */
 
-  .whatsapp-btn,
-  .scroll-top-btn {
-    width: 52px;
-    height: 52px;
-  }
+.call-btn {
+  background: linear-gradient(135deg,#ff8c42,#ff5a1f);
+}
+
+.whatsapp-btn {
+  background: #25D366;
+}
+
+/* =========================
+   SCROLL TOP
+========================= */
+
+.scroll-top-btn {
+
+  width:58px;
+  height:58px;
+
+  border:none;
+  outline:none;
+
+  border-radius:50%;
+
+  cursor:pointer;
+
+  background:#ff5c63;
+  color:white;
+
+  display:flex;
+  align-items:center;
+  justify-content:center;
+
+  font-size:22px;
+
+  box-shadow:0 10px 25px rgba(0,0,0,.18);
+
+  transition:.3s;
+}
+
+.scroll-top-btn:hover{
+    transform:translateY(-5px);
+}
+
+/* =========================
+   PULSE
+========================= */
+
+@keyframes pulse{
+
+0%{
+transform:scale(1);
+}
+
+50%{
+transform:scale(1.08);
+}
+
+100%{
+transform:scale(1);
+}
+
+}
+
+/* =========================
+   MOBILE
+========================= */
+
+@media(max-width:768px){
+
+.floating-buttons{
+right:15px;
+bottom:15px;
+}
+
+.contact-btn,
+.scroll-top-btn{
+
+width:54px;
+height:54px;
+
+}
+
+.contact-menu a{
+
+width:50px;
+height:50px;
+
+font-size:20px;
+
+}
+
 }

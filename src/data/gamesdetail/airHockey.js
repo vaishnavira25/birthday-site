@@ -8,7 +8,6 @@ import gallery2 from "../../assets/Games/air-hockey/air-hockey-rental.webp";
 import gallery3 from "../../assets/Games/air-hockey/air-hockey-game.webp";
 import gallery4 from "../../assets/Games/air-hockey/air-hockey-for-rent.webp";
 
-
 const airHockey = {
   id: 1,
 

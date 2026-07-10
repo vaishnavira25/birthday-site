@@ -1,11 +1,16 @@
 import React, { useEffect, useState } from "react";
 import "./button.css";
 
-import { FaWhatsapp, FaArrowUp } from "react-icons/fa";
+import {
+  FaWhatsapp,
+  FaArrowUp,
+  FaPhoneAlt,
+  FaTimes,
+} from "react-icons/fa";
 
 const Button = () => {
   const [showTop, setShowTop] = useState(false);
-  const [showMessage, setShowMessage] = useState(false);
+  const [showMenu, setShowMenu] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -19,20 +24,19 @@ const Button = () => {
     };
   }, []);
 
+  // Close menu on outside click
   useEffect(() => {
-    const showBubble = () => {
-      setShowMessage(true);
-
-      setTimeout(() => {
-        setShowMessage(false);
-      }, 5000);
+    const handleClickOutside = (e) => {
+      if (!e.target.closest(".contact-wrapper")) {
+        setShowMenu(false);
+      }
     };
 
-    showBubble();
+    document.addEventListener("mousedown", handleClickOutside);
 
-    const interval = setInterval(showBubble, 25000);
-
-    return () => clearInterval(interval);
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
   }, []);
 
   const scrollToTop = () => {
@@ -45,27 +49,42 @@ const Button = () => {
   return (
     <div className="floating-buttons">
 
-      {/* WhatsApp */}
-      <div className="whatsapp-wrapper">
+      {/* Contact Button */}
+      <div className="contact-wrapper">
 
-        {showMessage && (
-          <div className="whatsapp-message">
-            🎉 Chat with our party experts
-          </div>
-        )}
-
-        <a
-          href="https://wa.me/919811256658"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="whatsapp-btn"
+        <button
+          className={`contact-btn ${showMenu ? "active" : ""}`}
+          onClick={() => setShowMenu(!showMenu)}
         >
-          <FaWhatsapp />
-        </a>
+          {showMenu ? <FaTimes /> : <FaPhoneAlt />}
+        </button>
+
+        <div className={`contact-menu ${showMenu ? "show" : ""}`}>
+
+          <a
+            href="tel:+919811256658"
+            className="call-btn"
+            aria-label="Call"
+          >
+            <FaPhoneAlt />
+          </a>
+
+          <a
+            href="https://wa.me/919811256658"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="whatsapp-btn"
+            aria-label="WhatsApp"
+          >
+            <FaWhatsapp />
+          </a>
+
+        </div>
 
       </div>
 
       {/* Scroll To Top */}
+
       {showTop && (
         <button
           className="scroll-top-btn"
