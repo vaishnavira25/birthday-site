@@ -144,7 +144,7 @@ export const gamesData = [
   { id: 50, title: "Ring The Bottle", slug: "ring-the-bottle", image: ringTheBottleImg, price: "4,999" },
   { id: 51, title: "Electronic Basketball", slug: "electronic-basketball", image: electronicBasketballImg, price: "4,999" },
   { id: 52, title: "Tyre Spoon Game", slug: "tyre-spoon-game", image: tyreSpoonGameImg, price: "4,999" },
-  { id: 53, title: "Spin Game", slug: "spin-game", image: spinGameImg, price: "4,999" },
+  { id: 53, title: "Spin Game", slug: "spin-game-on-rent-for-birthday-party-and-event-in-delhi-ncr", image: spinGameImg, price: "4,999" },
   { id: 54, title: "Punching Machine", slug: "punching-machine", image: punchingMachineImg, price: "4,999" },
   { id: 55, title: "Penguin Game", slug: "penguin-game", image: penguinGameImg, price: "4,999" },
   { id: 56, title: "Meltdown Game", slug: "meltdown-game", image: meltdownGameImg, price: "4,999" },
