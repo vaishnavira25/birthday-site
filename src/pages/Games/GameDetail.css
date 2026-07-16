@@ -4,7 +4,6 @@
   padding: 0 20px;
 }
 /* HERO */
-
 .detail-hero{
   position: relative;
   height: 500px;
@@ -95,7 +94,6 @@
 }
 
 /* GALLERY */
-
 .gallery-section{
   padding: 50px 0;
   /* background: #f8f8f8; */
@@ -140,43 +138,78 @@
 
 /* FAQ VIDEO */
 
-.faq-video-section{
-  padding: 50px 0;
+.faq-video-section {
+  padding: 60px 0;
 }
 
-.faq-video-wrap{
+.faq-video-wrap {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 50px;
+  align-items: start;
 }
 
-.faq-box h2{
+.faq-box h2 {
   font-size: 38px;
   margin-bottom: 30px;
 }
 
-.faq-item{
-  padding: 20px;
-  border-radius: 20px;
+.faq-item {
+  border-radius: 18px;
   background: #f8f8f8;
-  margin-bottom: 20px;
+  margin-bottom: 18px;
+  overflow: hidden;
 }
 
-.faq-item h4{
-  margin-bottom: 12px;
+.faq-question {
+  width: 100%;
+  border: none;
+  background: transparent;
+  padding: 20px 24px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  cursor: pointer;
+
+  font-size: 18px;
+  font-weight: 600;
   color: #1d2736;
+  text-align: left;
 }
 
-.faq-item p{
-  line-height: 1.7;
+.faq-question span {
+  flex: 1;
+  padding-right: 15px;
+}
+
+.faq-question svg {
+  font-size: 15px;
+  color: #f39c12;
+}
+
+.faq-answer {
+  padding: 0 24px 20px;
+}
+
+.faq-answer p {
+  margin: 0;
   color: #666;
+  line-height: 1.8;
 }
 
-.video-box iframe{
-  border-radius: 24px;
+.video-box iframe {
+  width: 100%;
+  border-radius: 20px;
+}
+
+@media (max-width: 991px) {
+  .faq-video-wrap {
+    grid-template-columns: 1fr;
+  }
 }
 /* RELATED GAMES */
-
 .related-games-section {
   padding: 50px 0;
 }
