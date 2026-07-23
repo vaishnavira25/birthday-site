@@ -6,7 +6,7 @@ import {
 
 import Home from "../pages/Home";
 import GamePage from "../pages/Games/GamePage";
-import GameDetails from "../pages/Games/GameDetail";
+// import GameDetails from "../pages/Games/GameDetail";
 import PageDetail from "../pages/PageDetail/PageDetail";
 import ThemePage from "../pages/Themes/ThemePage";
 import Contact from "../pages/Contact/Contact";
@@ -31,7 +31,7 @@ export default function AppRouter() {
 
         <Route
             path="/:slug"
-            element={<GameDetails />}
+            element={<PageDetail />}
         />
        
         <Route

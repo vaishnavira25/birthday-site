@@ -15,12 +15,27 @@ const airHockey = {
 
   slug: "air-hockey-on-rent-in-delhi",
 
+  seo: {
+    title: "Air Hockey on Rent in Delhi | Birthday Planner",
+
+    description:
+      "Hire Air Hockey Game in Delhi, Gurgaon and Noida for birthday parties, corporate events and carnivals.",
+
+    keywords:
+      "air hockey on rent, air hockey game hire, arcade games Delhi",
+
+    image: airBanner,
+  },
+
   banner: airBanner,
 
   image: airImg1,
 
   sections: [
   {
+
+  layout: "image-text",
+
   title: "Air Hockey On Rent In Delhi",
 
   image: airImg1,
@@ -43,11 +58,12 @@ const airHockey = {
 },
 
     {
+
+      layout: "text-image",
+
       title: "Air Hockey Game On rent",
 
-      image: airImg2,
-
-    description: [
+      description: [
       `Hence, Air Hockey is a game where two players compete against each other by striking a puck across a specially designed air-cushioned table. <strong>Air Hockey on rent in Gurgaon</strong> is an excellent choice for competitive fun and interactive entertainment at parties and events.`,
 
       `There are some simple rules that make the game enjoyable and easy to understand. A player may stand anywhere on their side of the table but cannot cross the center line. <strong>Air Hockey on rent for birthday parties</strong> is suitable for both kids and adults who enjoy fast-paced challenges.`,
@@ -61,7 +77,9 @@ const airHockey = {
       `Air Hockey can also be paired with attractions such as <a href="" target="_blank" rel="noopener noreferrer"><strong>Hammer Machine</strong></a>, <a href="" target="_blank" rel="noopener noreferrer"><strong>Wooden Ice Hockey</strong></a>, <a href="" target="_blank" rel="noopener noreferrer"><strong>Toy Catcher Machine</strong></a>, <a href="" target="_blank" rel="noopener noreferrer"><strong>Punching Machine</strong></a>, <a href="" target="_blank" rel="noopener noreferrer"><strong>Trampoline Game</strong></a>, <a href="" target="_blank" rel="noopener noreferrer"><strong>Batak Game</strong></a>, <a href="" target="_blank" rel="noopener noreferrer"><strong>Slick Puck</strong></a>, <a href="" target="_blank" rel="noopener noreferrer"><strong>Snake Pit</strong></a>, and <a href="" target="_blank" rel="noopener noreferrer"><strong>Buttak Pro</strong></a> to create a complete entertainment experience.`,
 
       `Whether you are planning a birthday celebration, carnival, mall activation, exhibition, or corporate event, <strong>Air Hockey table rental in Delhi</strong> offers an engaging and competitive activity that guests will enjoy throughout the event. Learn more about our <a href="" target="_blank" rel="noopener noreferrer"><strong>event entertainment services</strong></a>.`
-    ],
+      ],
+
+       image: airImg2,
     },
   ],
 
@@ -109,7 +127,7 @@ const airHockey = {
     },
   ],
 
-    relatedGames: [
+  relatedItems: [
     "air-hockey-on-rent-in-delhi",
     "ball-in-bucket-game-on-rent",
     "jenga-game-on-rent-delhi",
