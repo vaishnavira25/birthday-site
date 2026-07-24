@@ -1,5 +1,5 @@
 import React from "react";
-import "./location.css";
+import "./Location.css";
 
 import { FaMapMarkerAlt } from "react-icons/fa";
 

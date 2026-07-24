@@ -1,7 +1,7 @@
 // AwardSection.jsx
 
 import React from "react";
-import "./award.css";
+import "./Award.css";
 
 import awardBanner from "../../assets/banner/award-banner.jpeg";
 

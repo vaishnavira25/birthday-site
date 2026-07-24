@@ -34,7 +34,7 @@ const airHockey = {
   sections: [
   {
 
-  layout: "image-text",
+  layout: "text-image",
 
   title: "Air Hockey On Rent In Delhi",
 
@@ -59,7 +59,7 @@ const airHockey = {
 
     {
 
-      layout: "text-image",
+      layout: "image-text",
 
       title: "Air Hockey Game On rent",
 
@@ -131,7 +131,7 @@ const airHockey = {
     "air-hockey-on-rent-in-delhi",
     "ball-in-bucket-game-on-rent",
     "jenga-game-on-rent-delhi",
-    "virtual-game-on-rent-in-delhi",
+    "spin-game-on-rent-for-birthday-party-and-event-in-delhi-ncr",
   ],
 };
 

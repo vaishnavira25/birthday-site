@@ -1,7 +1,5 @@
 import React, { useEffect, useState } from "react";
-import "./counter.css";
-
-
+import "./Counter.css";
 
 import { FaSmile } from "react-icons/fa";
 import { FaThumbsUp } from "react-icons/fa";

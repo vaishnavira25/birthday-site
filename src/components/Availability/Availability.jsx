@@ -1,5 +1,5 @@
 import React from "react";
-import "./availability.css";
+import "./Availability.css";
 
 import jaipurImg from "../../assets/availability/jaipur.webp";
 import delhiImg from "../../assets/availability/delhi.webp";

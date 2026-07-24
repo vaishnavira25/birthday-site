@@ -1,5 +1,5 @@
 import React from "react";
-import "./footer.css";
+import "./Footer.css";
 import Multilines from "../Multilines/Multilines";
 
 import logo from "../../assets/logo.jpg";

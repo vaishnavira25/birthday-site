@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import "./button.css";
+import "./Button.css";
 
 import {
   FaWhatsapp,

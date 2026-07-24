@@ -10,7 +10,7 @@ import games from "../../data/gamesdetail/gamesDetail";
 import Navbar from "../../components/Navbar/Navbar";
 import Banner from "../../components/Banner/Banner";
 // import Breadcrumb from "../../components/Breadcrumb/Breadcrumb";
-
+import PageContext from "../../components/PageSections/PageContext/PageContext";
 import Gallery from "../../components/PageSections/Gallery/Gallery";
 import FaqVideo from "../../components/PageSections/FaqVideo/FaqVideo";
 import Explore from "../../components/PageSections/Explore/Explore";
@@ -62,7 +62,7 @@ export default function PageDetail() {
         ]}
       /> */}
 
-      {/* <PageSections item={item} /> */}
+      <PageContext item={item} />
 
       <Gallery item={item} />
 
@@ -72,7 +72,7 @@ export default function PageDetail() {
         item={item}
         data={relatedData}
       />
-
+      
       <Footer />
     </section>
   );

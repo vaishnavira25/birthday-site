@@ -1,5 +1,5 @@
 import React from "react";
-import "./features.css";
+import "./Features.css";
 
 import feature1 from "../../assets/features/theme-icon.png";
 import feature2 from "../../assets/features/achievement.png";

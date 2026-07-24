@@ -1,4 +1,4 @@
-import "./hero.css";
+import "./Hero.css";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 

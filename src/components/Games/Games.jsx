@@ -1,4 +1,4 @@
-import "./games.css";
+import "./Games.css";
 
 import airHockey from "../../assets/Games/air-hockey.webp";
 import ballBucket from "../../assets/Games/ball-in-bucket.webp";
