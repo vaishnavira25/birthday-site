@@ -66,7 +66,7 @@ export default function Navbar() {
 
   <nav className="mainnav">
     <div className="container">
-      <div className="navbar-wrap">
+      <div className="navbar">
 
         {/* LOGO */}
         <div className="logo">
@@ -78,17 +78,15 @@ export default function Navbar() {
           </Link>
         </div>
 
-           {/* SEARCH */}
+        {/* RIGHT SIDE */}
+        <div className="right-side">
+              {/* SEARCH */}
           <div className="search-box">
             <input
               type="text"
               placeholder={placeholder}
             />
           </div>
-
-        {/* RIGHT SIDE */}
-        <div className="right-side">
-
 
           {/* HAMBURGER */}
           <div

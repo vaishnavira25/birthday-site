@@ -36,12 +36,9 @@
 
 .top-contact span:last-child::before {
   content: "";
-
   position: absolute;
-
   top: 50%;
   left: 50%;
-
   width: 300%;
   height: 300%;
 
@@ -163,17 +160,20 @@
   box-shadow: 0 2px 10px rgba(0,0,0,.06);
 }
 
-.navbar-wrap  {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 10px 40px;
+.navbar{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:12px 0;
+    gap:40px;
 }
 
-.right-side {
-  display: flex;
-  align-items: center;
-  gap: 35px;
+.right-side{
+    display:flex;
+    align-items:center;
+    gap:40px;
+    flex:1;
+    justify-content:flex-end;
 }
 
 /*---Logo----*/
@@ -184,9 +184,9 @@
 }
 
 /* SEARCH BOX */
-.search-box {
-  width: 100%;
-  max-width: 300px;
+.search-box{
+    width:320px;
+    flex-shrink:0;
 }
 
 .search-box input {
@@ -206,13 +206,14 @@
 }
 
 /* MENU */
-.menu {
-  display: flex;
-  align-items: center;
-  list-style: none;
-  gap: 30px;
-  margin: 0;
-  padding: 0;
+.menu{
+    display:flex;
+    align-items:center;
+    gap:35px;
+    list-style:none;
+    margin:0;
+    padding:0;
+    flex-wrap:nowrap;
 }
 
 .menu li a {
@@ -254,7 +255,6 @@
 }
 
 /* HOVER */
-
 .menu li a::after {
   content: "";
   position: absolute;
@@ -315,7 +315,6 @@
 /* =========================
    RESPONSIVE
 ========================= */
-
 /* TABLETS */
 
 @media (max-width: 992px) {

@@ -22,7 +22,7 @@ const airHockey = {
       "Hire Air Hockey Game in Delhi, Gurgaon and Noida for birthday parties, corporate events and carnivals.",
 
     keywords:
-      "air hockey on rent, air hockey game hire, arcade games Delhi",
+      "",
 
     image: airBanner,
   },

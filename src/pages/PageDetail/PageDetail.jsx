@@ -72,7 +72,7 @@ export default function PageDetail() {
         item={item}
         data={relatedData}
       />
-      
+  
       <Footer />
     </section>
   );
