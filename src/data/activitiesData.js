@@ -27,7 +27,7 @@ import candyFlossStallImg from "../assets/activity/candy-floss-machine.jpeg";
 import popcornStallImg from "../assets/activity/popcorn-machine.webp";
 
 export const activitiesData = [
-  { id: 1, title: "Parrot Card Reader", image: parrotCardReaderImg, rating: 4, reviews: 100, price: "1" },
+  { id: 1, title: "Parrot Card Reader",  slug: "parrot-card-reader-on-rent", image: parrotCardReaderImg, rating: 4, reviews: 100, price: "1" },
   { id: 2, title: "Hair Braiding", image: hairBraidingImg, rating: 5, reviews: 120, price: "1" },
   { id: 3, title: "Mehndi Artist", image: mehndiArtistImg, rating: 5, reviews: 120, price: "1" },
   { id: 4, title: "Nail Art", image: nailArtImg, rating: 5, reviews: 120, price: "1" },

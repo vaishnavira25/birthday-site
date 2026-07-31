@@ -3,7 +3,7 @@ import { useParams } from "react-router-dom";
 
 import SEO from "../../components/Seo/Seo"
 import games from "../../data/gamesdetail/gamesDetail";
-// import activities from "../../data/activitiesdetail/activitiesDetail";
+import activities from "../../data/activityDetail/activityDetail";
 // import themes from "../../data/themesdetail/themesDetail";
 // import services from "../../data/servicesdetail/servicesDetail";
 

@@ -28,16 +28,22 @@ export default function AppRouter() {
           path="/games-activity-for-event/"
           element={<GamePage />}
         />
-
-        <Route
-            path="/:slug"
-            element={<PageDetail />}
-        />
        
         <Route
           path="/themes/"
           element={<ThemePage />}
         />
+
+        <Route path="/boys-theme-party" element={<BoysTheme />} />
+
+        <Route path="/girls-theme-party" element={<GirlsTheme />} />
+
+        <Route
+          path="/customized-theme-party"
+          element={<CustomizedTheme />}
+        />
+
+        <Route path="/:slug" element={<PageDetail />} />
         
         <Route path="/contact" element={<Contact />} />
 
