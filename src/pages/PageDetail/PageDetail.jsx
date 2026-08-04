@@ -22,9 +22,9 @@ export default function PageDetail() {
 
   const item =
     games.find((item) => item.slug === slug) ||
-    activities.find((item) => item.slug === slug) ||
-    themes.find((item) => item.slug === slug) ||
-    services.find((item) => item.slug === slug);
+    activities.find((item) => item.slug === slug) ;
+    // themes.find((item) => item.slug === slug) ||
+    // services.find((item) => item.slug === slug);
 
   if (!item) {
     return <h1>Page Not Found</h1>;
@@ -36,10 +36,10 @@ export default function PageDetail() {
     relatedData = games;
   } else if (activities.some((item) => item.slug === slug)) {
     relatedData = activities;
-  } else if (themes.some((item) => item.slug === slug)) {
-    relatedData = themes;
-  } else if (services.some((item) => item.slug === slug)) {
-    relatedData = services;
+  // } else if (themes.some((item) => item.slug === slug)) {
+  //   relatedData = themes;
+  // } else if (services.some((item) => item.slug === slug)) {
+  //   relatedData = services;
   }
 
   return (

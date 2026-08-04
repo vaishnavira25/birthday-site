@@ -9,7 +9,9 @@ import GamePage from "../pages/Games/GamePage";
 // import GameDetails from "../pages/Games/GameDetail";
 import PageDetail from "../pages/PageDetail/PageDetail";
 import ThemePage from "../pages/Themes/ThemePage";
+import ThemeList from "../pages/Themes/ThemeList";
 import Contact from "../pages/Contact/Contact";
+
 
 
 export default function AppRouter() {
@@ -19,29 +21,35 @@ export default function AppRouter() {
 
       <Routes>
 
-        <Route
-          path="/"
-          element={<Home />}
-        />
+        <Route path="/" element={<Home />}/>
 
-       <Route
-          path="/games-activity-for-event/"
-          element={<GamePage />}
-        />
+       <Route path="/games-activity-for-event/" element={<GamePage />}/>
        
         <Route
           path="/themes/"
           element={<ThemePage />}
         />
 
-        <Route path="/boys-theme-party" element={<BoysTheme />} />
-
-        <Route path="/girls-theme-party" element={<GirlsTheme />} />
+                <Route
+          path="/themes/"
+          element={<ThemePage />}
+        />
 
         <Route
-          path="/customized-theme-party"
-          element={<CustomizedTheme />}
+          path="/boys-theme-party-delhi"
+          element={<ThemeList />}
         />
+
+        <Route
+          path="/girls-theme-party-delhi"
+          element={<ThemeList />}
+        />
+
+        <Route
+          path="/customized-theme-party-planner"
+          element={<ThemeList />}
+        />
+
 
         <Route path="/:slug" element={<PageDetail />} />
         
