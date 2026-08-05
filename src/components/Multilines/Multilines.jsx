@@ -1,5 +1,5 @@
 import React from "react";
-import "./multilines.css";
+import "./Multilines.css";
 
 const Multilines = () => {
   return (

@@ -1,5 +1,5 @@
 import React from "react";
-import "./themes.css";
+import "./Themes.css";
 
 import Cards from "../../components/Cards/Cards";
 

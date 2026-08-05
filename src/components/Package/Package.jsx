@@ -1,4 +1,4 @@
-import "./package.css";
+import "./Package.css";
 import packageImg from "../../assets/birthday-img.jpg"; // change image path
 
 export default function Package() {

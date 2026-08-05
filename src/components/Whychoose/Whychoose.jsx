@@ -1,4 +1,4 @@
-import "./whychoose.css";
+import "./Whychoose.css";
 import {
   FaRocket,
   FaUsers,

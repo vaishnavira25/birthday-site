@@ -1,12 +1,12 @@
-import jengaBanner from "../../assets/Games/jenga-game/jenga-game-banner.png";
+import jengaBanner from "../../assets/games/jenga-game/jenga-game-banner.png";
 
-import jengaImg1 from "../../assets/Games/jenga-game/jenga-game-on-rental.jpg";
-import jengaImg2 from "../../assets/Games/jenga-game/jenga-game-on-rent.webp";
+import jengaImg1 from "../../assets/games/jenga-game/jenga-game-on-rental.jpg";
+import jengaImg2 from "../../assets/games/jenga-game/jenga-game-on-rent.webp";
 
-import gallery1 from "../../assets/Games/jenga-game/jenga-game-for-hire.webp";
-import gallery2 from "../../assets/Games/jenga-game/jenga-for-events.webp";
-import gallery3 from "../../assets/Games/jenga-game/hire-jenga-game-on-rent.webp";
-import gallery4 from "../../assets/Games/jenga-game/jenga-game-for-rent.webp";
+import gallery1 from "../../assets/games/jenga-game/jenga-game-for-hire.webp";
+import gallery2 from "../../assets/games/jenga-game/jenga-for-events.webp";
+import gallery3 from "../../assets/games/jenga-game/hire-jenga-game-on-rent.webp";
+import gallery4 from "../../assets/games/jenga-game/jenga-game-for-rent.webp";
 
 const jengaGame = {
   id: 3,

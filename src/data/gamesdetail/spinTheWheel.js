@@ -1,12 +1,12 @@
-import airBanner from "../../assets/Games/air-hockey/air-hockey-game-banner.jpg";
+import airBanner from "../../assets/games/air-hockey/air-hockey-game-banner.jpg";
 
-import airImg1 from "../../assets/Games/air-hockey/air-hockey-game-on-rent-in-delhi.webp";
-import airImg2 from "../../assets/Games/air-hockey/air-hockey-on-rent.webp";
+import airImg1 from "../../assets/games/air-hockey/air-hockey-game-on-rent-in-delhi.webp";
+import airImg2 from "../../assets/games/air-hockey/air-hockey-on-rent.webp";
 
-import gallery1 from "../../assets/Games/air-hockey/air-hockey.webp";
-import gallery2 from "../../assets/Games/air-hockey/air-hockey-rental.webp";
-import gallery3 from "../../assets/Games/air-hockey/air-hockey-game.webp";
-import gallery4 from "../../assets/Games/air-hockey/air-hockey-for-rent.webp";
+import gallery1 from "../../assets/games/air-hockey/air-hockey.webp";
+import gallery2 from "../../assets/games/air-hockey/air-hockey-rental.webp";
+import gallery3 from "../../assets/games/air-hockey/air-hockey-game.webp";
+import gallery4 from "../../assets/games/air-hockey/air-hockey-for-rent.webp";
 
 const spinTheWheel = {
   id: 1,

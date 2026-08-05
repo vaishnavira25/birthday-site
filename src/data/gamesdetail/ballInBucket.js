@@ -1,12 +1,12 @@
-import ballBanner from "../../assets/Games/ball-in-bucket/ball-in-bucket-game-banner.png";
+import ballBanner from "../../assets/games/ball-in-bucket/ball-in-bucket-game-banner.png";
 
-import ballImg1 from "../../assets/Games/ball-in-bucket/ball-in-bucket-game.webp";
-import ballImg2 from "../../assets/Games/ball-in-bucket/hire-ball-in-bucket-game.jpg";
+import ballImg1 from "../../assets/games/ball-in-bucket/ball-in-bucket-game.webp";
+import ballImg2 from "../../assets/games/ball-in-bucket/hire-ball-in-bucket-game.jpg";
 
-import gallery1 from "../../assets/Games/ball-in-bucket/ball-in-bucket-game-delhi.jpg";
-import gallery2 from "../../assets/Games/ball-in-bucket/ball-in-bucket-game-on-rental.jpg";
-import gallery3 from "../../assets/Games/ball-in-bucket/ball-in-bucket-game-for-hire.jpg";
-import gallery4 from "../../assets/Games/ball-in-bucket/ball-in-bucket.webp";
+import gallery1 from "../../assets/games/ball-in-bucket/ball-in-bucket-game-delhi.jpg";
+import gallery2 from "../../assets/games/ball-in-bucket/ball-in-bucket-game-on-rental.jpg";
+import gallery3 from "../../assets/games/ball-in-bucket/ball-in-bucket-game-for-hire.jpg";
+import gallery4 from "../../assets/games/ball-in-bucket/ball-in-bucket.webp";
 
 const ballInBucket = {
   id: 2,

@@ -5,9 +5,9 @@ import "./ThemeList.css";
 import Navbar from "../../components/Navbar/Navbar";
 import Cards from "../../components/Cards/Cards";
 
-import { boysThemeData } from "../../data/themeData/boysThemeData";
-import { girlsThemeData } from "../../data/themeData/girlsThemeData";
-import { customizedThemeData } from "../../data/themeData/customizedThemeData";
+import { boysThemeData } from "../../data/themesData/boysThemeData";
+import { girlsThemeData } from "../../data/themesData/girlsThemeData";
+import { customizedThemeData } from "../../data/themesData/customizedThemeData";
 
 export default function ThemeList() {
 

@@ -32,7 +32,7 @@ import toyTrainImg from "../../assets/Games/train-ride.jpeg";
 
 
 export const boysThemeData = [
-  { id: 1, title: "Air Hockey", slug: "air-hockey-on-rent-in-delhi", image: airHockey, price: "1", category: "games"},
+  { id: 1, title: "Air Hockey", slug: "air-hockey-on-rent-in-delhi", image: airHockey, price: "1",},
   { id: 2, title: "Ball In Bucket", slug: "ball-in-bucket-game-on-rent", image: ballInBucketImg, price: "1" },
   { id: 3, title: "Jenga", slug: "jenga-game-on-rent-delhi", image: JengaImg, price: "1" },
   { id: 4, title: "Virtual Game", slug: "virtual-game-on-rent-in-delhi", image: virtualGameImg, price: "1" },

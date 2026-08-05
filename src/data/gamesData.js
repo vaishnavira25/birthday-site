@@ -1,98 +1,98 @@
-import airHockey from "../assets/Games/air-hockey.webp";
-import ballInBucketImg from "../assets/Games/ball-in-bucket.webp";
-import JengaImg from "../assets/Games/jenga-game.webp";
-import virtualGameImg from "../assets/Games/virtual-xbox.webp";
-import clawMachineImg from "../assets/Games/claw-machine.webp";
-import tableTennisImg from "../assets/Games/table-tennis.webp";
-import snakeLadderImg from "../assets/Games/snake-ladder.webp";
-import balloonShootingImg from "../assets/Games/balloon-shooting.webp";
-import rouletteImg from "../assets/Games/roulette-game.jpeg";
-import remoteCarImg from "../assets/Games/remote-car.webp";
-import breakThePyramid from "../assets/Games/break-the-pyramid.jpeg";
-import puzzleGameImg from "../assets/Games/puzzle-game.jpg";
-import paintballGameImg from "../assets/Games/paintball-game.jpg";
-import miniGolfImg from "../assets/Games/mini-golf.webp";
-import leapTheFrogImg from "../assets/Games/leap-the-frog.png";
-import hooplaGameImg from "../assets/Games/hoopla-game.jpg";
-import hammerGameImg from "../assets/Games/hammer-game-machine.webp";
-import foosballTableImg from "../assets/Games/foosball-table.png";
-import dropADopeGameImg from "../assets/Games/drop-a-dope.jpeg";
-import dontBuzzTheWireGameImg from "../assets/Games/dont-buzz-the-wire.jpeg";
-import bowlingAlleyImg from "../assets/Games/bowling-alley-game-for-events.webp";
-import dartGameImg from "../assets/Games/dart-game.jpg";
-import angryBirdGameImg from "../assets/Games/angry-bird.png";
-import bowArrowGameImg from "../assets/Games/bow-and-arrow.jpg";
-import merryGoRoundImg from "../assets/Games/merry-go-round.jpg";
-import matkiFodGameImg from "../assets/Games/matki-fod-game.jpeg";
-import motorBikeImg from "../assets/Games/motor-bike.webp";
-import inflatableBoxingRingImg from "../assets/Games/inflatable-boxing-ring.webp";
-import bungeeRunImg from "../assets/Games/bungee-run.webp";
-import toyTrainImg from "../assets/Games/train-ride.jpeg";
-import casinoTableImg from "../assets/Games/casino-table.webp";
-import kangarooBoxingImg from "../assets/Games/kangaroo-boxing.webp";
-import dancingPadImg from "../assets/Games/dancing-pad.jpg";
-import ballPoolImg from "../assets/Games/ball-pool.webp";
-import ziplineGameImg from "../assets/Games/zipline-game.webp";
-import inflatableSumoImg from "../assets/Games/inflatable-sumo-suit.jpeg";
-import ballTheJokerImg from "../assets/Games/ball-the-joker.jpg";
-import basketballGameImg from "../assets/Games/basketball-game.webp";
-import batteryOperatedCarImg from "../assets/Games/battery-operated-car.webp";
-import bungeeJumpingImg from "../assets/Games/bungee-jumping.webp";
-import coinRideImg from "../assets/Games/coin-ride.jpg";
-import columbusRideImg from "../assets/Games/columbus-rides.webp";
-import cricketBowlingMachineImg from "../assets/Games/cricket-bowling-machine.jpg";
-import giantWheelImg from "../assets/Games/gaint-wheel.jpg";
-import petrolQuadImg from "../assets/Games/petrol-quad.webp";
-import humanFoosballImg from "../assets/Games/human-foosball.webp";
-import mazeBoardImg from "../assets/Games/maze-board.webp";
-import poolTableImg from "../assets/Games/pool-table.webp";
-import bullRideImg from "../assets/Games/bull-ride.jpeg";
-import ringTheBottleImg from "../assets/Games/ring-the-bottle.jpg";
-import electronicBasketballImg from "../assets/Games/electronic-basketball-machine.webp";
-import tyreSpoonGameImg from "../assets/Games/tyre-spoon-game.webp";
-import spinGameImg from "../assets/Games/spin-the-wheel.jpg";
-import punchingMachineImg from "../assets/Games/punching-machine.jpg";
-import penguinGameImg from "../assets/Games/penguin-game.webp";
-import meltdownGameImg from "../assets/Games/meltdown-game.webp";
-import lucky13GameImg from "../assets/Games/lucky-13-game-on-rent.webp";
-import mechanicalSurfboardImg from "../assets/Games/mechanical-surfboard-on-rent.webp";
-import rainDanceSetupImg from "../assets/Games/rain-dance-setup.webp";
-import footballSnookerImg from "../assets/Games/inflatable-football-snooker-game.webp";
-import fourInOneCarnivalGameImg from "../assets/Games/4-in-one-carnival-game.jpg";
-import dartFootballImg from "../assets/Games/dart-football.webp";
-import beerPongTableImg from "../assets/Games/beer-pong.webp";
-import beerPuppetGameImg from "../assets/Games/beer-puppet-game.jpeg";
+import airHockey from "../assets/games/air-hockey.webp";
+import ballInBucketImg from "../assets/games/ball-in-bucket.webp";
+import JengaImg from "../assets/games/jenga-game.webp";
+import virtualGameImg from "../assets/games/virtual-xbox.webp";
+import clawMachineImg from "../assets/games/claw-machine.webp";
+import tableTennisImg from "../assets/games/table-tennis.webp";
+import snakeLadderImg from "../assets/games/snake-ladder.webp";
+import balloonShootingImg from "../assets/games/balloon-shooting.webp";
+import rouletteImg from "../assets/games/roulette-game.jpeg";
+import remoteCarImg from "../assets/games/remote-car.webp";
+import breakThePyramid from "../assets/games/break-the-pyramid.jpeg";
+import puzzleGameImg from "../assets/games/puzzle-game.jpg";
+import paintballGameImg from "../assets/games/paintball-game.jpg";
+import miniGolfImg from "../assets/games/mini-golf.webp";
+import leapTheFrogImg from "../assets/games/leap-the-frog.png";
+import hooplaGameImg from "../assets/games/hoopla-game.jpg";
+import hammerGameImg from "../assets/games/hammer-game-machine.webp";
+import foosballTableImg from "../assets/games/foosball-table.png";
+import dropADopeGameImg from "../assets/games/drop-a-dope.jpeg";
+import dontBuzzTheWireGameImg from "../assets/games/dont-buzz-the-wire.jpeg";
+import bowlingAlleyImg from "../assets/games/bowling-alley-game-for-events.webp";
+import dartGameImg from "../assets/games/dart-game.jpg";
+import angryBirdGameImg from "../assets/games/angry-bird.png";
+import bowArrowGameImg from "../assets/games/bow-and-arrow.jpg";
+import merryGoRoundImg from "../assets/games/merry-go-round.jpg";
+import matkiFodGameImg from "../assets/games/matki-fod-game.jpeg";
+import motorBikeImg from "../assets/games/motor-bike.webp";
+import inflatableBoxingRingImg from "../assets/games/inflatable-boxing-ring.webp";
+import bungeeRunImg from "../assets/games/bungee-run.webp";
+import toyTrainImg from "../assets/games/train-ride.jpeg";
+import casinoTableImg from "../assets/games/casino-table.webp";
+import kangarooBoxingImg from "../assets/games/kangaroo-boxing.webp";
+import dancingPadImg from "../assets/games/dancing-pad.jpg";
+import ballPoolImg from "../assets/games/ball-pool.webp";
+import ziplineGameImg from "../assets/games/zipline-game.webp";
+import inflatableSumoImg from "../assets/games/inflatable-sumo-suit.jpeg";
+import ballTheJokerImg from "../assets/games/ball-the-joker.jpg";
+import basketballGameImg from "../assets/games/basketball-game.webp";
+import batteryOperatedCarImg from "../assets/games/battery-operated-car.webp";
+import bungeeJumpingImg from "../assets/games/bungee-jumping.webp";
+import coinRideImg from "../assets/games/coin-ride.jpg";
+import columbusRideImg from "../assets/games/columbus-rides.webp";
+import cricketBowlingMachineImg from "../assets/games/cricket-bowling-machine.jpg";
+import giantWheelImg from "../assets/games/gaint-wheel.jpg";
+import petrolQuadImg from "../assets/games/petrol-quad.webp";
+import humanFoosballImg from "../assets/games/human-foosball.webp";
+import mazeBoardImg from "../assets/games/maze-board.webp";
+import poolTableImg from "../assets/games/pool-table.webp";
+import bullRideImg from "../assets/games/bull-ride.jpeg";
+import ringTheBottleImg from "../assets/games/ring-the-bottle.jpg";
+import electronicBasketballImg from "../assets/games/electronic-basketball-machine.webp";
+import tyreSpoonGameImg from "../assets/games/tyre-spoon-game.webp";
+import spinGameImg from "../assets/games/spin-the-wheel.jpg";
+import punchingMachineImg from "../assets/games/punching-machine.jpg";
+import penguinGameImg from "../assets/games/penguin-game.webp";
+import meltdownGameImg from "../assets/games/meltdown-game.webp";
+import lucky13GameImg from "../assets/games/lucky-13-game-on-rent.webp";
+import mechanicalSurfboardImg from "../assets/games/mechanical-surfboard-on-rent.webp";
+import rainDanceSetupImg from "../assets/games/rain-dance-setup.webp";
+import footballSnookerImg from "../assets/games/inflatable-football-snooker-game.webp";
+import fourInOneCarnivalGameImg from "../assets/games/4-in-one-carnival-game.jpg";
+import dartFootballImg from "../assets/games/dart-football.webp";
+import beerPongTableImg from "../assets/games/beer-pong.webp";
+import beerPuppetGameImg from "../assets/games/beer-puppet-game.jpeg";
 
-import streetFightGameImg from "../assets/Games/street-fight-game.webp";
-import subsoccerGameImg from "../assets/Games/subsoccer-game.webp";
-import fillTheBottleImg from "../assets/Games/fill-the-bottle-game.webp";
-import bubbleHouseImg from "../assets/Games/bubble-house.webp";
-import laserGunImg from "../assets/Games/laser-gun-arcade-shooting.webp";
-import whackTheMoleImg from "../assets/Games/whack-the-mole.webp";
-import mazeRunnerImg from "../assets/Games/maze-runner-game.webp";
-import waterBallpoolBouncyImg from "../assets/Games/water-bouncy.webp";
-import naughtyBeansImg from "../assets/Games/naughty-beans-game.jpg";
-import connect4GameImg from "../assets/Games/connect4-game.webp";
-import batakGameImg from "../assets/Games/batak-game-on-rent.webp";
-import toyCatcherGameImg from "../assets/Games/toy-catcher-machine.webp";
-import hopscotchGameImg from "../assets/Games/hopscotch-game.jpg";
-import plinkoGameImg from "../assets/Games/plinko-game.webp";
-import tiltoGameImg from "../assets/Games/tilto-game.webp";
-import hitTheBallInAirImg from "../assets/Games/hit-the-ball-in-air.webp";
-import whiteBouncyImg from "../assets/Games/white-bouncy.webp";
-import foamTubImg from "../assets/Games/foam-tub.webp";
-import bikeSimulatorImg from "../assets/Games/bike-stimulator.webp";
-import ragingApeImg from "../assets/Games/raging-ape-arcade.webp";
-import kidTableChairImg from "../assets/Games/table-chair.webp";
-import carSimulatorImg from "../assets/Games/car-stimulator.webp";
-import slotMachineImg from "../assets/Games/slot-machine.jpg";
-import tekken3Img from "../assets/Games/tekken3.webp";
-import snakePitImg from "../assets/Games/snake-pit-game.webp";
-import zorbingBallImg from "../assets/Games/zorbing-water-ball.webp";
-import slickPuckGameImg from "../assets/Games/slick-puck-game.webp";
+import streetFightGameImg from "../assets/games/street-fight-game.webp";
+import subsoccerGameImg from "../assets/games/subsoccer-game.webp";
+import fillTheBottleImg from "../assets/games/fill-the-bottle-game.webp";
+import bubbleHouseImg from "../assets/games/bubble-house.webp";
+import laserGunImg from "../assets/games/laser-gun-arcade-shooting.webp";
+import whackTheMoleImg from "../assets/games/whack-the-mole.webp";
+import mazeRunnerImg from "../assets/games/maze-runner-game.webp";
+import waterBallpoolBouncyImg from "../assets/games/water-bouncy.webp";
+import naughtyBeansImg from "../assets/games/naughty-beans-game.jpg";
+import connect4GameImg from "../assets/games/connect4-game.webp";
+import batakGameImg from "../assets/games/batak-game-on-rent.webp";
+import toyCatcherGameImg from "../assets/games/toy-catcher-machine.webp";
+import hopscotchGameImg from "../assets/games/hopscotch-game.jpg";
+import plinkoGameImg from "../assets/games/plinko-game.webp";
+import tiltoGameImg from "../assets/games/tilto-game.webp";
+import hitTheBallInAirImg from "../assets/games/hit-the-ball-in-air.webp";
+import whiteBouncyImg from "../assets/games/white-bouncy.webp";
+import foamTubImg from "../assets/games/foam-tub.webp";
+import bikeSimulatorImg from "../assets/games/bike-stimulator.webp";
+import ragingApeImg from "../assets/games/raging-ape-arcade.webp";
+import kidTableChairImg from "../assets/games/table-chair.webp";
+import carSimulatorImg from "../assets/games/car-stimulator.webp";
+import slotMachineImg from "../assets/games/slot-machine.jpg";
+import tekken3Img from "../assets/games/tekken3.webp";
+import snakePitImg from "../assets/games/snake-pit-game.webp";
+import zorbingBallImg from "../assets/games/zorbing-water-ball.webp";
+import slickPuckGameImg from "../assets/games/slick-puck-game.webp";
 
 export const gamesData = [
-  { id: 1, title: "Air Hockey", slug: "air-hockey-on-rent-in-delhi", image: airHockey, price: "1", category: "games"},
+  { id: 1, title: "Air Hockey", slug: "air-hockey-on-rent-in-delhi", image: airHockey, price: "1", category: "Games"},
   { id: 2, title: "Ball In Bucket", slug: "ball-in-bucket-game-on-rent", image: ballInBucketImg, price: "1" },
   { id: 3, title: "Jenga", slug: "jenga-game-on-rent-delhi", image: JengaImg, price: "1" },
   { id: 4, title: "Virtual Game", slug: "virtual-game-on-rent-in-delhi", image: virtualGameImg, price: "1" },
@@ -142,7 +142,7 @@ export const gamesData = [
   { id: 48, title: "Pool Table", slug: "pool-table-on-rent-delhi", image: poolTableImg, price: "1" },
   { id: 49, title: "Bull Ride", slug: "bull-ride-on-rent", image: bullRideImg, price: "1" },
   { id: 50, title: "Ring The Bottle", slug: "ring-the-bottle-game-on-rent", image: ringTheBottleImg, price: "1" },
-  { id: 51, title: "Electronic Basketball", slug: "electronic-basketball-games", image: electronicBasketballImg, price: "1" },
+  { id: 51, title: "Electronic Basketball", slug: "electronic-basketball-Games", image: electronicBasketballImg, price: "1" },
   { id: 52, title: "Tyre Spoon Game", slug: "tyre-spoon-game-on-rent", image: tyreSpoonGameImg, price: "1" },
   { id: 53, title: "Spin Game", slug: "spin-game-on-rent-for-birthday-party-and-event-in-delhi-ncr", image: spinGameImg, price: "1" },
   { id: 54, title: "Punching Machine", slug: "punching-machine-on-rent", image: punchingMachineImg, price: "1" },
@@ -160,7 +160,7 @@ export const gamesData = [
   { id: 66, title: "Subsoccer Game", slug: "subsoccer-game-on-rent", image: subsoccerGameImg, price: "1" },
   { id: 67, title: "Fill The Bottle", slug: "fill-the-bottle-game-on-rent", image: fillTheBottleImg, price: "1" },
   { id: 68, title: "Bubble House", slug: "bubble-house-game-on-rent", image: bubbleHouseImg, price: "1" },
-  { id: 69, title: "Laser Gun", slug: "laser-gun-arcade-shooting-games-on-rent", image: laserGunImg, price: "1" },
+  { id: 69, title: "Laser Gun", slug: "laser-gun-arcade-shooting-Games-on-rent", image: laserGunImg, price: "1" },
   { id: 70, title: "Whack The Mole", slug: "whack-the-mole-game-on-rent", image: whackTheMoleImg, price: "1" },
   { id: 71, title: "Maze Runner", slug: "maze-runner-game-on-rent", image: mazeRunnerImg, price: "1" },
   { id: 72, title: "Water Ballpool Bouncy", slug: "water-ballpool-bouncy-game-on-rent", image: waterBallpoolBouncyImg, price: "1" },
